@@ -1,2 +1,2 @@
-# guadi_practice
+# gaudi_practice
 one-page-web_1st-practice
