@@ -1,0 +1,236 @@
+body{
+    margin: 0;
+}
+
+header {
+    background-image: url(images/header.jpg);
+    padding-top: 60px;
+    padding-bottom: 80px;
+    background-size:cover;
+}
+
+header>h1 {
+    /* padding-top: 20px; */
+    padding-left: 10px;
+    font-size: 25px;
+}
+
+nav {
+    background-color: rgb(19, 75, 120);
+}
+
+nav>ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    box-sizing: border-box;
+    border-bottom: 2px solid rgb(86, 132, 173);
+    ;
+}
+
+nav li:last-child {
+    border-right: none;
+}
+
+nav a {
+    display: block;
+    color: white;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: rgb(86, 132, 173);
+}
+
+main>section {
+    background-color: rgb(255, 231, 196);
+    padding: 10px;
+    margin-bottom: 10px;
+    padding-left: 50px;
+}
+
+main>section>h2 {
+    border-left: 5px solid rgb(243, 166, 57);
+    padding-left: 10px;
+}
+
+main>section>div {
+    margin-right: 30px;
+}
+
+main>section>p {
+    margin-right: 30px;
+    text-align: left;
+    font-size: 22px;
+    line-height: 1.5em;
+    text-align: justify;
+}
+
+footer {
+    height: 80px;
+    background-color: rgb(196, 224, 255);
+    color: rgb(52, 120, 198);
+    font-weight: bold;
+    text-align: center;
+}
+
+footer>h5 {
+    font-size: 14px;
+    margin: 0;
+    line-height: 40px;
+}
+
+footer>p {
+    font-size: 14px;
+    margin: 0;
+    line-height: 40px;
+}
+
+footer>p>a {
+    color: rgb(33, 103, 255);
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: rgb(52, 120, 198);
+}
+
+.container {
+    width: 100%
+}
+
+.clearfix::after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+
+@media screen and (min-width: 1200px) {
+    header {
+        margin: 0;
+        background: url(images/header.jpg);
+        padding-top: 40px;
+        padding-bottom: 190px;
+        background-size: 100% auto;
+    }
+
+
+    header>h1 {
+        font-size: 40px;
+        padding-top: 80px;
+        padding-left: 50px;
+    }
+
+    nav {
+        height: 50px;
+        background-color: rgb(19, 75, 120);
+        position: sticky;
+        top: 0;
+        left: 0;
+    }
+
+    nav>ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    nav li {
+        float: left;
+        width: 25%;
+        box-sizing: border-box;
+        border-right: 2px solid rgb(86, 132, 173);
+        ;
+        border-bottom: none;
+    }
+
+    nav li:last-child {
+        border-right: none;
+    }
+
+    nav a {
+        display: block;
+        color: white;
+        width: 100%;
+        font-size: 24px;
+        line-height: 50px;
+        text-align: center;
+        text-decoration: none;
+    }
+
+    nav a:hover {
+        background-color: rgb(86, 132, 173);
+    }
+
+    main>section {
+        height: 300px;
+        background-color: rgb(255, 231, 196);
+        padding: 10px;
+        margin-bottom: 10px;
+        padding-left: 50px;
+    }
+
+    main>section>div {
+        float: left;
+        margin-right: 30px;
+    }
+
+    main>section>p {
+        margin-right: 30px;
+        text-align: left;
+        font-size: 22px;
+        line-height: 1.5em;
+        text-align: justify;
+    }
+
+    footer {
+        height: 80px;
+        background-color: rgb(196, 224, 255);
+        color: rgb(52, 120, 198);
+        font-weight: bold;
+        text-align: center;
+    }
+
+    footer>h5 {
+        font-size: 14px;
+        margin: 0;
+        line-height: 40px;
+    }
+
+    footer>p {
+        font-size: 14px;
+        margin: 0;
+        line-height: 40px;
+    }
+
+    footer>p>a {
+        color: rgb(33, 103, 255);
+        text-decoration: none;
+    }
+
+    footer a:hover {
+        color: rgb(52, 120, 198);
+    }
+
+    .container {
+        width: 1140px;
+        margin: 0 auto;
+    }
+
+    .clearfix::after {
+        content: ".";
+        display: block;
+        height: 0;
+        clear: both;
+        visibility: hidden;
+    }
+}
